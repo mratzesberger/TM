@@ -22,10 +22,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "XLFormBaseCell.h"
-
-extern NSString * const XLFormRowDescriptorTypeFloatLabeledTextField;
-
-@interface FloatLabeledTextFieldCell : XLFormBaseCell
-
-@end
+//#import "XLFormBaseCell.h"
+//
+//extern NSString * const XLFormRowDescriptorTypeFloatLabeledTextField;
+//
+//@interface FloatLabeledTextFieldCell : XLFormBaseCell
+//
+//@end

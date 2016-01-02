@@ -58,8 +58,9 @@ class ProjectDetail : XLFormViewController {
         form.addFormSection(section)
         
         // Name
-        row = XLFormRowDescriptor(tag: Tags.ProjectName, rowType: XLFormRowDescriptorTypeFloatLabeledTextField, title: "Project Name1")
+        row = XLFormRowDescriptor(tag: Tags.ProjectName, rowType: XLFormRowDescriptorTypeText, title: "Projekt Name")
         row.required = true
+//        row.cellConfigAtConfigure["textField.placeholder"] = "Projekt Name"
         row.value = user.ProjectSelected["ProjectName"].string
         section.addFormRow(row)
         // Description

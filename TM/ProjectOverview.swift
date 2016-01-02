@@ -45,7 +45,7 @@ class ProjectOverview : XLFormViewController {
         
         section = XLFormSectionDescriptor.formSectionWithTitle("Meine Projekte")
 //        section = XLFormSectionDescriptor.formSectionWithTitle("test", sectionOptions: XLFormSectionOptions.CanInsert)
-        form.addFormSection(section)
+//        form.addFormSection(section)
         
         for (_,subJson):(String, JSON) in user.Projects {
             // Project Name
